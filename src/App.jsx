@@ -26,7 +26,7 @@ function App() {
         <h2>Demo Counter Project</h2>
         <h2>Counter Value: {counter}</h2>
         <div className="buttons">
-          <button className='increase' onClick={increaseCount}>Increase</button>
+          <button className='increase' onClick={increaseCount}>Increase {counter}</button>
           <button className='reset' onClick={resetCount}>Reset</button>
           <button className='decrease' onClick={decreaseCount}>Decrease</button>
         </div>
